@@ -21,7 +21,7 @@ public class JavaClassExample{
                     ...
   }
   */
-  public void setName(String n){
+  public void setName(String n, String p){
     //set passed parameter as name
     name = n;
   }
@@ -37,7 +37,7 @@ public class JavaClassExample{
     */
     JavaClassExample javaClassExample = new JavaClassExample();
     //set name member of this object
-    javaClassExample.setName("Visitor");
+    javaClassExample.setName("Visitor", "First");
     // print the name
     System.out.println("Hello " + javaClassExample.getName());      
   }
