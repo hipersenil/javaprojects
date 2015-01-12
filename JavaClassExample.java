@@ -23,7 +23,7 @@ public class JavaClassExample{
   */
   public void setName(String n, String p){
     //set passed parameter as name
-    name = n;
+    name = n+p;
   }
   public String getName(){
     //return the set name
