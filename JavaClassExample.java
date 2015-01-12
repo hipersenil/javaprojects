@@ -24,7 +24,7 @@ public class JavaClassExample{
   */
   public void setName(String n, String p){
     //set passed parameter as name
-    name = n+p+" With a new branch";
+    name = n+p+" With a new branch and waiting for the hot fix to appear";
   }
   public String getName(){
     //return the set name
