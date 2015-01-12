@@ -15,7 +15,7 @@ public class JavaClassExample{
     <modifier> type <name>;
   */
   private String name;
- private String last_name;
+  private String last_name_hotfixed;
   /*
   Syntax of defining methods of the java class is,
   <modifier> <return-type> methodName(<optional-parameter-list>) <exception-list>{
